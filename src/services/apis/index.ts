@@ -1,0 +1,17 @@
+export {loginService, registerService} from './auth';
+export {coursePriceService} from './coursePriceService';
+export {userDetailService} from './userDetailService';
+export {batchesService} from './batchesService';
+export {classesService} from './classesService';
+export {recordingService} from './recordingService';
+export {assignmentsService} from './assignmentsService';
+export {eBookService} from './eBookService';
+export {createOrderService} from './createOrder';
+export {createOrderByRazorpayService} from './createOrderByRazorpay';
+export {verifySignatureRazorpayService} from './verifySignatureRazorpay';
+export {updatePaymentService} from './updatePayment';
+export {getOrderDetailsService} from './getOrderDetails';
+export {getOrderService} from './getOrders';
+export {deleteStripeIntentService, updateStripeIntentService} from './stripe';
+export {fetchLocationService} from './fetchLocation';
+export {blogsService, blogsDetailService} from './blogs';
